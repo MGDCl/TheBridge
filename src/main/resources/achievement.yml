@@ -1,0 +1,433 @@
+title: "&b&lArchievements - &e<player>"
+archivements: "&aArchievements <arrow>"
+back: "&eBack Page <back>"
+next: "&eNext Page <next>"
+close:
+  item: BARRIER
+  data: 0
+  amount: 1
+  name: "&cClose"
+  lore: |-
+    &7Click to close
+    &7this menu.
+kills:
+  item: DIAMOND_SWORD
+  data: 0
+  amount: 1
+  name: "&aKill Archievements"
+  lore: |-
+    &7Archievements of kills
+    &7players in games.
+wins:
+  item: DIAMOND
+  data: 0
+  amount: 1
+  name: "&aWin Archievements"
+  lore: |-
+    &7Archievements of win
+    &7games.
+goals:
+  item: ENDER_PORTAL_FRAME
+  data: 0
+  amount: 1
+  name: "&aGoal Archievements"
+  lore: |-
+    &7Archievements of goals
+    &7players in games.
+blocks_placed:
+  item: WOOD
+  data: 0
+  amount: 1
+  name: "&aBlocks Place Archievements"
+  lore: |-
+    &7Archievements of blocks
+    &7placed in games.
+blocks_bloken:
+  item: DIAMOND_PICKAXE
+  data: 0
+  amount: 1
+  name: "&aBlocks Break Archievements"
+  lore: |-
+    &7Archievements of blocks
+    &7broken in games.
+unlocked:
+  item: STAINED_GLASS_PANE
+  data: 5
+  amount: 1
+  name: "&a<name>"
+  lore:
+  - "&e<description>"
+  - "&7"
+  - "&7Reward:"
+  - "&8+ &3<xp> TheBridge Experience"
+  - "&8+ &6<money> TheBridge Coins"
+  - "&7"
+  - "&7Completed: &aDONE! &7(&a<current>&7)"
+  - "&7"
+  - "&aAchievement Unlocked!"
+locked:
+  item: STAINED_GLASS_PANE
+  data: 14
+  amount: 1
+  name: "&c<name>"
+  lore:
+  - "&e<description>"
+  - "&7"
+  - "&7Reward:"
+  - "&8+ &3<xp> TheBridge Experience"
+  - "&8+ &6<money> TheBridge Coins"
+  - "&7"
+  - "&7Completed: &a<current>&7/&a<max>"
+  - "&7"
+  - "&cAchievement Locked!"
+archievements:
+  kills-I:
+    type: KILLS
+    name: "Killer I"
+    description: "Kill 50 TheBridge Players"
+    amount: 50
+    messages:
+    - "&aAchievement: Killer I Completed!"
+    - "&7 &8+ &320 The Bridge Experience."
+    - "&7 &8+ &620 The Bridge Coins."
+    rewards:
+      xp: 20
+      money: 20
+      commands:
+      - "none"
+  wins-I:
+    type: WINS
+    name: "Winner I"
+    description: "Win 5 TheBridge Games"
+    amount: 5
+    messages:
+    - "&aAchievement: Winner I Completed!"
+    - "&7 &8+ &320 The Bridge Experience."
+    - "&7 &8+ &620 The Bridge Coins."
+    rewards:
+      xp: 20
+      money: 20
+      commands:
+      - "none"
+  goals-I:
+    type: GOALS
+    name: "Scorer I"
+    description: "Score 50 TheBridge Goals"
+    amount: 50
+    messages:
+    - "&aAchievement: Scorer I Completed!"
+    - "&7 &8+ &320 The Bridge Experience."
+    - "&7 &8+ &620 The Bridge Coins."
+    rewards:
+      xp: 20
+      money: 20
+      commands:
+      - "none"
+  placed-I:
+    type: BLOCKS_PLACED
+    name: "Block Placer I"
+    description: "Place 250 Blocks TheBridge Games"
+    amount: 250
+    messages:
+    - "&aAchievement: Block Placer I Completed!"
+    - "&7 &8+ &320 The Bridge Experience."
+    - "&7 &8+ &620 The Bridge Coins."
+    rewards:
+      xp: 20
+      money: 20
+      commands:
+      - "none"
+  broken-I:
+    type: BLOCKS_BROKEN
+    name: "Block Breaker I"
+    description: "Break 50 Blocks TheBridge Games"
+    amount: 50
+    messages:
+    - "&aAchievement: Block Breaker I Completed!"
+    - "&7 &8+ &320 The Bridge Experience."
+    - "&7 &8+ &620 The Bridge Coins."
+    rewards:
+      xp: 20
+      money: 20
+      commands:
+      - "none"
+  kills-II:
+    type: KILLS
+    name: "Killer II"
+    description: "Kill 100 TheBridge Players"
+    amount: 100
+    messages:
+    - "&aAchievement: Killer II Completed!"
+    - "&7 &8+ &340 The Bridge Experience."
+    - "&7 &8+ &640 The Bridge Coins."
+    rewards:
+      xp: 40
+      money: 40
+      commands:
+      - "none"
+  wins-II:
+    type: WINS
+    name: "Winner II"
+    description: "Win 15 TheBridge Games"
+    amount: 15
+    messages:
+    - "&aAchievement: Winner II Completed!"
+    - "&7 &8+ &340 The Bridge Experience."
+    - "&7 &8+ &640 The Bridge Coins."
+    rewards:
+      xp: 40
+      money: 40
+      commands:
+      - "none"
+  goals-II:
+    type: GOALS
+    name: "Scorer II"
+    description: "Score 100 TheBridge Goals"
+    amount: 100
+    messages:
+    - "&aAchievement: Scorer II Completed!"
+    - "&7 &8+ &340 The Bridge Experience."
+    - "&7 &8+ &640 The Bridge Coins."
+    rewards:
+      xp: 40
+      money: 40
+      commands:
+      - "none"
+  placed-II:
+    type: BLOCKS_PLACED
+    name: "Block Placer II"
+    description: "Place 600 Blocks TheBridge Games"
+    amount: 600
+    messages:
+    - "&aAchievement: Block Placer II Completed!"
+    - "&7 &8+ &340 The Bridge Experience."
+    - "&7 &8+ &640 The Bridge Coins."
+    rewards:
+      xp: 40
+      money: 40
+      commands:
+      - "none"
+  broken-II:
+    type: BLOCKS_BROKEN
+    name: "Block Breaker II"
+    description: "Break 100 Blocks TheBridge Games"
+    amount: 100
+    messages:
+    - "&aAchievement: Block Breaker II Completed!"
+    - "&7 &8+ &340 The Bridge Experience."
+    - "&7 &8+ &640 The Bridge Coins."
+    rewards:
+      xp: 40
+      money: 40
+      commands:
+      - "none"
+  kills-III:
+    type: KILLS
+    name: "Killer III"
+    description: "Kill 150 TheBridge Players"
+    amount: 150
+    messages:
+    - "&aAchievement: Killer III Completed!"
+    - "&7 &8+ &360 The Bridge Experience."
+    - "&7 &8+ &660 The Bridge Coins."
+    rewards:
+      xp: 60
+      money: 60
+      commands:
+      - "none"
+  wins-III:
+    type: WINS
+    name: "Winner III"
+    description: "Win 50 TheBridge Games"
+    amount: 50
+    messages:
+    - "&aAchievement: Winner III Completed!"
+    - "&7 &8+ &360 The Bridge Experience."
+    - "&7 &8+ &660 The Bridge Coins."
+    rewards:
+      xp: 60
+      money: 60
+      commands:
+      - "none"
+  goals-III:
+    type: GOALS
+    name: "Scorer III"
+    description: "Score 150 TheBridge Goals"
+    amount: 150
+    messages:
+    - "&aAchievement: Scorer III Completed!"
+    - "&7 &8+ &360 The Bridge Experience."
+    - "&7 &8+ &660 The Bridge Coins."
+    rewards:
+      xp: 60
+      money: 60
+      commands:
+      - "none"
+  placed-III:
+    type: BLOCKS_PLACED
+    name: "Block Placer III"
+    description: "Place 1500 Blocks TheBridge Games"
+    amount: 1500
+    messages:
+    - "&aAchievement: Block Placer III Completed!"
+    - "&7 &8+ &360 The Bridge Experience."
+    - "&7 &8+ &660 The Bridge Coins."
+    rewards:
+      xp: 60
+      money: 60
+      commands:
+      - "none"
+  broken-III:
+    type: BLOCKS_BROKEN
+    name: "Block Breaker III"
+    description: "Break 150 Blocks TheBridge Games"
+    amount: 150
+    messages:
+    - "&aAchievement: Block Breaker III Completed!"
+    - "&7 &8+ &360 The Bridge Experience."
+    - "&7 &8+ &660 The Bridge Coins."
+    rewards:
+      xp: 60
+      money: 60
+      commands:
+      - "none"
+  kills-IV:
+    type: KILLS
+    name: "Killer IV"
+    description: "Kill 200 TheBridge Players"
+    amount: 200
+    messages:
+    - "&aAchievement: Killer IV Completed!"
+    - "&7 &8+ &380 The Bridge Experience."
+    - "&7 &8+ &680 The Bridge Coins."
+    rewards:
+      xp: 80
+      money: 80
+      commands:
+      - "none"
+  wins-IV:
+    type: WINS
+    name: "Winner IV"
+    description: "Win 200 TheBridge Games"
+    amount: 200
+    messages:
+    - "&aAchievement: Winner IV Completed!"
+    - "&7 &8+ &380 The Bridge Experience."
+    - "&7 &8+ &680 The Bridge Coins."
+    rewards:
+      xp: 80
+      money: 80
+      commands:
+      - "none"
+  goals-IV:
+    type: GOALS
+    name: "Scorer IV"
+    description: "Score 200 TheBridge Goals"
+    amount: 200
+    messages:
+    - "&aAchievement: Scorer IV Completed!"
+    - "&7 &8+ &380 The Bridge Experience."
+    - "&7 &8+ &680 The Bridge Coins."
+    rewards:
+      xp: 80
+      money: 80
+      commands:
+      - "none"
+  placed-IV:
+    type: BLOCKS_PLACED
+    name: "Block Placer IV"
+    description: "Place 3000 Blocks TheBridge Games"
+    amount: 3000
+    messages:
+    - "&aAchievement: Block Placer IV Completed!"
+    - "&7 &8+ &380 The Bridge Experience."
+    - "&7 &8+ &680 The Bridge Coins."
+    rewards:
+      xp: 80
+      money: 80
+      commands:
+      - "none"
+  broken-IV:
+    type: BLOCKS_BROKEN
+    name: "Block Breaker IV"
+    description: "Break 200 Blocks TheBridge Games"
+    amount: 200
+    messages:
+    - "&aAchievement: Block Breaker IV Completed!"
+    - "&7 &8+ &380 The Bridge Experience."
+    - "&7 &8+ &680 The Bridge Coins."
+    rewards:
+      xp: 80
+      money: 80
+      commands:
+      - "none"
+  kills-V:
+    type: KILLS
+    name: "Killer V"
+    description: "Kill 250 TheBridge Players"
+    amount: 250
+    messages:
+    - "&aAchievement: Killer V Completed!"
+    - "&7 &8+ &3100 The Bridge Experience."
+    - "&7 &8+ &6100 The Bridge Coins."
+    rewards:
+      xp: 100
+      money: 100
+      commands:
+      - "none"
+  wins-V:
+    type: WINS
+    name: "Winner V"
+    description: "Win 250 TheBridge Games"
+    amount: 250
+    messages:
+    - "&aAchievement: Winner V Completed!"
+    - "&7 &8+ &3100 The Bridge Experience."
+    - "&7 &8+ &6100 The Bridge Coins."
+    rewards:
+      xp: 100
+      money: 100
+      commands:
+      - "none"
+  goals-IV:
+    type: GOALS
+    name: "Scorer V"
+    description: "Score 250 TheBridge Goals"
+    amount: 250
+    messages:
+    - "&aAchievement: Scorer V Completed!"
+    - "&7 &8+ &3100 The Bridge Experience."
+    - "&7 &8+ &6100 The Bridge Coins."
+    rewards:
+      xp: 100
+      money: 100
+      commands:
+      - "none"
+  placed-V:
+    type: BLOCKS_PLACED
+    name: "Block Placer V"
+    description: "Place 5000 Blocks TheBridge Games"
+    amount: 5000
+    messages:
+    - "&aAchievement: Block Placer V Completed!"
+    - "&7 &8+ &3100 The Bridge Experience."
+    - "&7 &8+ &6100 The Bridge Coins."
+    rewards:
+      xp: 100
+      money: 100
+      commands:
+      - "none"
+  broken-V:
+    type: BLOCKS_BROKEN
+    name: "Block Breaker V"
+    description: "Break 250 Blocks TheBridge Games"
+    amount: 250
+    messages:
+    - "&aAchievement: Block Breaker V Completed!"
+    - "&7 &8+ &3100 The Bridge Experience."
+    - "&7 &8+ &6100 The Bridge Coins."
+    rewards:
+      xp: 100
+      money: 100
+      commands:
+      - "none"

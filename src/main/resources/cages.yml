@@ -1,0 +1,37 @@
+size: 36
+title: "&aThe Bridge - Cages"
+unlocked:
+- "<description>"
+- "&7"
+- "&eClick to select!"
+noPerm:
+- "<description>"
+- "&7"
+- "&aPrice: &6<price>"
+- "&7"
+- "&cYou dont have permission!"
+locked:
+- "<description>"
+- "&7"
+- "&aPrice: &6<price>"
+- "&7"
+- "&eClick to buy this!"
+cages:
+  default:
+    icon: GLASS
+    data: 0
+    amount: 1
+    slot: 0
+    price: 0
+    isBuy: true
+    name: "Default Glass"
+    clearFile: "clear.schematic"
+    files: 
+      red: "normal-red.schematic"
+      blue: "normal-blue.schematic"
+      yellow: "normal-yellow.schematic"
+      green: "normal-green.schematic" 
+    permission: bridges.cage.default
+    description:
+    - "&fDefault glass to all"
+    - "&fplayers"

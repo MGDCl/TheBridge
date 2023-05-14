@@ -1,0 +1,57 @@
+size: 27
+title: '&aThe Bridge - Particles'
+unlocked:
+- <description>
+- '&7'
+- '&eClick to select!'
+noPerm:
+- <description>
+- '&7'
+- '&aPrice: &6<price>'
+- '&7'
+- '&cYou dont have permission!'
+locked:
+- <description>
+- '&7'
+- '&aPrice: &6<price>'
+- '&7'
+- '&eClick to buy this!'
+trails: 
+  arrow: 
+    title: '&aThe Bridge - Arrow Trails'
+    size: 36
+    effects: 
+      default:
+        icon: ARROW
+        data: 0
+        amount: 1
+        slot: 0
+        price: 0
+        isBuy: true
+        name: "Default Arrow Effect"
+        effect: 
+          type: EMPTY
+          ammount: 10
+        permission: bridges.arrow.default
+        description:
+        - '&fDefault effect to all'
+        - '&fplayers'
+  feet: 
+    title: '&aThe Bridge - Feet Trails'
+    size: 36
+    effects: 
+      default: 
+        icon: IRON_BOOTS
+        data: 0
+        amount: 1
+        slot: 0
+        price: 0
+        isBuy: true
+        name: "Default Feet Effect"
+        effect: 
+          type: EMPTY
+          ammount: 10
+        permission: bridges.feet.default
+        description:
+        - '&fDefault effect to all'
+        - '&fplayers'

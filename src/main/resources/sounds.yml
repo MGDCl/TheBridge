@@ -1,0 +1,13 @@
+sounds:
+  archievement:
+    reward: LEVEL_UP
+  game:
+    join: NOTE_PLING
+    quit: NOTE_BASS
+    restart: SUCCESSFUL_HIT
+    prestart: SUCCESSFUL_HIT
+    starting: SUCCESSFUL_HIT
+  shop:
+    buy: NOTE_PLING
+  teamFour:
+    death: WITHER_DEATH

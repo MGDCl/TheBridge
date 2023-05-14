@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github</groupId>
+    <artifactId>TheBridge</artifactId>
+    <version>2.5.0</version>
+
+    <name>TheBridge</name>
+    <description>Edited by MGDCl</description>
+    <url>https://github.com/MGDCl</url>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <author>Stefatorus</author>
+        <mainClass>io.github.MGDCl.UltraCTW.UltraCTW</mainClass>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>dmulloy2-repo</id>
+            <url>https://repo.dmulloy2.net/repository/public/</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+        <repository>
+            <id>spigot</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
+            <id>placeholderapi</id>
+            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+        </repository>
+        <repository>
+            <id>upstream</id>
+            <url>https://ci.nametagedit.com/plugin/repository/everything/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.comphenix.protocol</groupId>
+            <artifactId>ProtocolLib</artifactId>
+            <version>4.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.nametagedit</groupId>
+            <artifactId>nametagedit</artifactId>
+            <version>4.4.16</version>
+        </dependency>
+        <dependency>
+            <groupId>localrepo</groupId>
+            <artifactId>FastAsyncWorldEdit</artifactId>
+            <version>100</version>
+            <systemPath>C:/Users/pc/OneDrive/Escritorio/repo/FastAsyncWorldEdit.jar</systemPath>
+            <type>jar</type>
+            <scope>system</scope>
+        </dependency>
+        <dependency>
+            <groupId>localrepo</groupId>
+            <artifactId>WorldEdit</artifactId>
+            <version>10</version>
+            <systemPath>C:/Users/pc/OneDrive/Escritorio/repo/WorldEdit.jar</systemPath>
+            <type>jar</type>
+            <scope>system</scope>
+        </dependency>
+        <dependency>
+            <groupId>localrepo</groupId>
+            <artifactId>spigot-1.8.8</artifactId>
+            <version>2.13</version>
+            <systemPath>C:/Users/pc/OneDrive/Escritorio/repo/spigot-1.8.8.jar</systemPath>
+            <type>jar</type>
+            <scope>system</scope>
+        </dependency>
+        <dependency>
+            <groupId>me.clip</groupId>
+            <artifactId>placeholderapi</artifactId>
+            <version>2.10.10</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>3.4.2</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -1,0 +1,132 @@
+mainLobby: null
+server: ServerName
+update: true
+cages: false
+permFormat: pex user <name> add <permission>
+defaultCage: "default"
+chat:
+  enabled: true
+  lobby: "&b[TheBridge] &e<player>: &7<msg>"
+  ingame: "<teamColor>[<teamName>] <player>: &7<msg>"
+  global: "&6[GLOBAL] <teamColor> <teamName> <player>: &7<msg>"
+archievements:
+  disable: false
+remove: 
+  absorption: false
+  regeneration: false
+bow:
+  seconds: 3
+shop:
+  size: 27
+  glass:
+    slot: 4
+    icon: STAINED_GLASS
+    data: 0
+    amount: 1
+  close:
+    slot: 22
+    icon: BARRIER
+    data: 0
+    amount: 1
+coins:
+  normal:
+    kill: 2
+    win: 50
+    goals: 0
+  four:
+    kill: 2
+    win: 50
+    goals: 0
+xp:
+  normal:
+    kill: 1
+    win: 10
+    goals: 0
+  four:
+    kill: 1
+    win: 10
+    goals: 0
+items:
+  shop:
+    enabled: false
+    material: DIAMOND
+    data: 0
+    amount: 1
+    slot: 3
+    nameItem: "&aThe Bridge | Shop"
+    loreItem: |-
+      &7Click to open
+      &7shop of the bridge.
+  hotbar:
+    enabled: false
+    material: CHEST
+    data: 0
+    amount: 1
+    slot: 5
+    nameItem: "&aHotbar Editor"
+    loreItem: |-
+      &7Click to open
+      &7hotbar editor.
+  menu:
+    enabled: false
+    material: BOOK
+    data: 0
+    amount: 1
+    slot: 4
+    nameItem: "&aGame Selector"
+    loreItem: |-
+      &7Click to open
+      &7menu of select games.
+  random:
+    enabled: false
+    material: FEATHER
+    data: 0
+    amount: 1
+    slot: 8
+    nameItem: "&eRandom Join"
+    loreItem: |-
+      &7Click to random
+      &7join a game.
+names:
+  red: "Red"
+  blue: "Blue"
+  yellow: "Yellow"
+  green: "Green"
+signs:
+  waiting: 5
+  starting: 4
+  pregame: 6
+  ingame: 14
+  finish: 11
+  restart: 15
+MySQL:
+  enabled: false
+  username: Insider
+  password: spigot
+  database: Martu
+  host: 127.0.0.1
+  port: 3306
+stats: null
+tops:
+  normal:
+    kills: null
+    wins: null
+    goals: null
+  four:
+    kills: null
+    wins: null
+    goals: null
+title:
+  prestart:
+    fadein: 0
+    stayin: 21
+    fadeout: 0
+  start:
+    fadein: 0
+    stayin: 21
+    fadeout: 0
+  restart:
+    fadein: 0
+    stayin: 21
+    fadeout: 0
+kit: null

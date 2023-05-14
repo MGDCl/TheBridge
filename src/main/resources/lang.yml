@@ -1,0 +1,396 @@
+prefix: "&6&lTheBridge &7:"
+error: "&c&lERROR!"
+signs:
+  normal:
+    line-1: "&lTheBridge Normal"
+    line-2: <state>
+    line-3: "Map: <name>"
+    line-4: "&7<players>/<max>"
+  four:
+    line-1: "&lTheBridge Four"
+    line-2: <state>
+    line-3: "Map: <name>"
+    line-4: "&7<players>/<max>"
+states:
+  waiting: "&aWaiting..."
+  starting: "&eStarting"
+  pregame: "&cPre-Game"
+  ingame: "&4In-Game"
+  finish: "&9Finishing"
+  restarting: "&5Restarting"
+shop:
+  title: "&aThe Bridge | Shop"
+  glass:
+    nameItem: "&aCage Shop"
+    loreItem: |-
+      &7Click to open
+      &7the cage Shop.
+  close:
+    nameItem: "&cClose"
+    loreItem: |-
+      &7Click to close
+      &7this shop
+holograms:
+  your: "Your"
+  portal:
+    you:
+    - "<color>&l<team> Goal"
+    - "&7Defend!"
+    enemy:
+    - "<color>&l<team> Goal"
+    - "&eJump in to score!"
+tops:
+  normal:
+    kills:
+    - "&b&lTop TheBridge Kills"
+    - "&aNormal mode"
+    - <top>
+    wins:
+    - "&b&lTop TheBridge Winners"
+    - "&aNormal mode"
+    - <top>
+    goals:
+    - "&b&lTop TheBridge Goal scorers"
+    - "&aNormal mode"
+    - <top>
+  four:
+    kills:
+    - "&b&lTop TheBridge Kills"
+    - "&aFour mode"
+    - <top>
+    wins:
+    - "&b&lTop TheBridge Winners"
+    - "&aFour mode"
+    - <top>
+    goals:
+    - "&b&lTop TheBridge Goal scorers"
+    - "&aFour mode"
+    - <top>
+stats:
+- "&a%player_name% &6&lThe Bridge &astatistics"
+- "&aNormal Kills: &6%bridges_normal_kills%"
+- "&aNormal Wins: &6%bridges_normal_wins%"
+- "&aNormal Goals: &6%bridges_normal_goals%"
+- "&aFour Kills: &6%bridges_four_kills%"
+- "&aFour Wins: &6%bridges_four_wins%"
+- "&aFour Goals: &6%bridges_four_goals%"
+- "&aBlocks Placed: &6%bridges_blocks_placed%"
+- "&aBlocks Broken: &6%bridges_blocks_broken%"
+- "&aCoins: &6%bridges_coins%"
+- "&aXP: &6%bridges_xp%"
+deathMessages:
+  void: <TDColor><death> &7was thrown into the void
+  damage: <TDColor><death> &7was killed
+  custom: <TDColor><death> &7was death
+  player: "&7 by <TKColor><player>&7."
+  none: .
+messages:
+  noPermission: "&cYou dont have permissions to run this command."
+  noBreak: "&cYou can only break blocks allowed blocks."
+  noPlace: "&cYou are not allowed to build here."
+  starting: "&eThe game starts in &b<time> &e<units>."
+  prestart: "&eCages are opening in &b<time> &e<units>."
+  restart: "&eCages are reopening in &b<time> &e<units>."
+  alreadyGame: "&cThis player is already in a game."
+  noGame: "&cYou are not in any game."
+  join: "&7<player> &ehas joined the game &b(&e<players>&b/&e<max>&b)!"
+  quit: "&7<player> &ehas left the game &b(&e<players>&b/&e<max>&b)!"
+  eliminated: <color>&l<player> &c&lhas been eliminated.
+  gameFull: "&cThis game is already full."
+  gameAlreadyStart: "&cThis game has already started."
+  joinedTeam: "&eYou joined a team <team>&e."
+  unbalancedTeam: "&cThat team is full. Try joining another one"
+  noHaveKit: "&cYou haven't set up the main kit yet."
+  noGames: "&cThere are no free games available."
+  hotbarSaved: "&aYour hotbar has been saved."
+  noBuy: "&cYou are not allowed to buy this."
+  noMoney: "&cYou dont have money to do this."
+  buyCage: "&aYou successfuly bought the &e<cage> cage."
+  selectedCage: "&aYou have just selected the &e<cage>&a cage."
+  leftGame: "&cYou left the game."
+  noShoot: "&cYou can not shoot the bow yet."
+  archiDisabled: "&cAchievements are currently disabled."
+  noEnabedGlass: "&cCages are currently not enabled. Please use FastAsyncWorldEdit to enable them."
+  start:
+  - "&a&m&l---------------------------------------------"
+  - "&7&f&lThe Bridge"
+  - "&7"
+  - "&e&lThe only goal is to enter the portal of the"
+  - "&e&lAnother team in order to score a goal."
+  - "&e&lThe team that bequeath 5 goals first"
+  - "&e&lwin the game."
+  - "&7"
+  - "&a&m&l---------------------------------------------"
+  startFour:
+  - "&a&m&l---------------------------------------------"
+  - "&7&f&lThe Bridge"
+  - "&7"
+  - "&eCross bridges to score goals on enemy teams,"
+  - "&egoals you steal. Each team starts with &a2<heart> (lifes)&e."
+  - "&eScoring &a+1<heart> &efor your computer while allowing you to"
+  - "&ethose affected lose &c-1<heart> &eof your team."
+  - "&7"
+  - "&eWhen there are 2 teams left, you can not"
+  - "&eregaining lives! The last team on foot wins!"
+  - "&7"
+  - "&a&m&l---------------------------------------------"
+  goal:
+  - "&a&m&l---------------------------------------------"
+  - "&7"
+  - "&7<color>&l<player> &7(&a<health>&c<heart>&7) &ehas scored! &7(&6<goals> Gol<s>&7)"
+  - "&7"
+  - "&7<color>&l<team> GOAL!!"
+  - "&7&c&l<redGoals> &e&l- &9&l<blueGoals> "
+  - "&7"
+  - "&a&m&l---------------------------------------------"
+  stole:
+  - "&a&m&l---------------------------------------------"
+  - "&7"
+  - <color>&l<player> &7(&a<health>&c<heart>&7) scored &c<teamStole>&7! (&6<goals> Gol<es>&7)
+  - <teamOther> &7stolen <color>1<heart> &7of <teamStole>&7!
+  - "&7"
+  - <green> &8- <greenLife>
+  - <blue> &8- <blueLife>
+  - <red> &8- <redLife>
+  - <yellow> &8- <yellowLife>
+  - "&7"
+  - "&a&m&l---------------------------------------------"
+  final:
+  - "&a&m&l---------------------------------------------"
+  - "&7"
+  - <color>&l<player> &7(&a<health>&c<heart>&7) scored &c<teamStole>&7! (&6<goals> Gol<es>&7)
+  - <teamStole> &7lost &c-1<heart>&7!
+  - "&7"
+  - <green> &8- <greenLife>
+  - <blue> &8- <blueLife>
+  - <red> &8- <redLife>
+  - <yellow> &8- <yellowLife>
+  - "&7"
+  - "&a&m&l---------------------------------------------"
+  win:
+  - "&a&m&l---------------------------------------------"
+  - "&7&f&lThe Bridge"
+  - "&7"
+  - "&7<color>&l<team> WIN!"
+  - "&7<color>&l<player> &7(&a<health>&c<heart>&7) &ehas scored! &7(&6<goals> Gol<s>&7)"
+  - "&7"
+  - "&c&l<redGoals> &7&l- &9&l<blueGoals>"
+  - "&7"
+  - "&a&m&l---------------------------------------------"
+  winFour:
+  - "&a&m&l---------------------------------------------"
+  - "&7&f&lThe Bridge"
+  - "&7"
+  - <color>&l<team> WIN!
+  - <color>&l<player> &7(&a<health>&c<heart>&7) scored &c<teamStole>&7! (&6<goals> Gol<es>&7)
+  - "&7"
+  - <green> &8- <greenLife>
+  - <blue> &8- <blueLife>
+  - <red> &8- <redLife>
+  - <yellow> &8- <yellowLife>
+  - "&7"
+  - "&a&m&l---------------------------------------------"
+setup:
+  worldCreated: "&aThe world &e<name> &ahas been created."
+  minSet: "&aMinimum established. At location: &e<world> - <x>, <y>, <z>, <yaw>, <pitch>&a."
+  maxSet: "&aMaximum established. At location: &e<world> - <x>, <y>, <z>, <yaw>, <pitch>&a."
+menus:
+  team:
+    title: "&eTeam Selector"
+    team:
+      nameItem: "Team <#>"
+      loreItem:
+      - "&bPlayers:"
+      - "&7"
+      - "<teamPlayers>"
+  teamFour:
+    title: "&eTeam Four Selector"
+    team:
+      nameItem: "Team Four <#>"
+      loreItem:
+      - "&bPlayers:"
+      - "&7"
+      - "<teamPlayers>"
+  options:
+    title: "Spectator Options"
+    enable: "&aEnable"
+    disable: "&cDisable"
+    velocidad:
+      nameItem: "&aSpeed <#>"
+      loreItem: |-
+        &7Click to change your
+        &7speed leve <#>.
+    vision:
+      nameItem: "<type> Night Vision"
+      loreItem: |-
+        &7Click to <type> the
+        &7night vission.
+  teleport:
+    title: "Teleporter"
+    team:
+      nameItem: "<color>Team <team>"
+      loreItem: |-
+        &7Show the players with
+        &7life of team.
+    player:
+      nameItem: "&7<player>"
+      loreItem: |-
+        &7
+        &eLife: &b<health>
+        &7
+        &aClick to teleport!
+  save:
+    nameItem: "&aSave Layout"
+    loreItem: |-
+      &7Click to save
+      &7in to default layout
+  close:
+    nameItem: "&cClose"
+    loreItem: |-
+      &7Click to close
+      &7this menu.
+  hotbar:
+    title: "&8Editor Hotbar - TheBridge"
+  type:
+    title: "&aSelect Type - Menu"
+    normal:
+      nameItem: "&aGame Normal"
+      loreItem: |-
+        &7Click to select
+        &7normal game menu.
+    four:
+      nameItem: "&aGame Four"
+      loreItem: |-
+        &7Click to select
+        &7four game menu.
+  game:
+    title: "&aNormal Game Menu"
+    generalDesc: |-
+      &7
+      &ePlayers: &b<players>/<max>
+      &eMode: &b<mode>
+      &eState: <state>
+      &e
+      &eClick to enter!
+  gameFour:
+    title: "&aFour Game Menu"
+    generalDesc: |-
+      &7
+      &ePlayers: &b<players>/<max>
+      &eMode: &b<mode>
+      &eState: <state>
+      &e
+      &eClick to enter!
+items:
+  leave:
+    nameItem: "&cLeave &7(Right Click)"
+    loreItem: |-
+      &7Click to exit and
+      &7finish the fun.
+  teams:
+    nameItem: "&aTeam Selector &7(Right Click)"
+    loreItem: |-
+      &7Click to select computers
+      &7and play with friends.
+  spectate:
+    nameItem: "&aSpect Players &7(Right Click)"
+    loreItem: |-
+      &7Click to expect the
+      &7players per team.
+  config:
+    nameItem: "&bSpectator settings &7(Right Click)"
+    loreItem: |-
+      &7Set up your way of seeing
+      &7in game.
+titles:
+  start:
+    title: <time>
+    subtitle: <none>
+  prestart:
+    title: <none>
+    subtitle: "&7Open cages in &a<time><s>&7..."
+  restart:
+    title: <color><player> scored!
+    subtitle: "&7Open cages in &a<time><s>&7..."
+  goalNormal:
+    title: <color><player> &7scored in <teamStole>&7!
+    subtitle: <teamOther> &7stole <color>1<heart> &7of &c<teamStole>&7!
+  goalFinal:
+    title: <color><player> &7scored in <teamStole>&7!
+    subtitle: <teamStole> &c&lhas eliminated!
+  win:
+    title: <color>&l<team> WIN!
+    subtitle: "&c&l<redGoals> &7&l- &9&l<blueGoals>"
+  winFour:
+    title: <color>&l<team> WIN!
+    subtitle: <color><life>
+scoreboards:
+  main-title: "&e&lTHE BRIDGE LOBBY"
+  main: |-
+    &f
+    &fName: &a<player>
+    &f
+    &fLobby: &a#1
+    &f
+    &fOnline: &a<online>/100
+    &f
+    &6www.servername.net
+  lobby-title: "&e&lTHE BRIDGE"
+  lobby: |-
+    &f
+    &fPlayers: &e<players>/<max>
+    &f
+    &fMode: &a<mode>
+    &fMap: &e<map>
+    &f
+    &fServer: &e<server>
+    &f
+    &6www.servername.net
+  starting-title: "&e&lTHE BRIDGE"
+  starting: |-
+    &f
+    &fPlayers: &e<players>/<max>
+    &f
+    &fStarting in: &e<time><s>
+    &f
+    &fMode: &a<mode>
+    &fMap: &e<map>
+    &f
+    &fServer: &e<server>
+    &f
+    &6www.servername.net
+  game-normal-title: "&e&lTHE BRIDGE"
+  game-normal: |-
+    &7<date>
+    &f
+    &cRed Color Team: &e<redGoals>&7/5
+    &9Blue Color Team: &e<blueGoals>&7/5
+    &f
+    &fKills: &e<kills>
+    &fGoals: &c<goals>
+    &f
+    &fMode: &e<mode>
+    &fMap: &e<map>
+    &f
+    &6www.servername.net
+  game-four-title: "&e&lTHE BRIDGE"
+  game-four: |-
+    &7<date>
+    &7
+    <red>&7: <redLife>
+    <blue>&7: <blueLife>
+    <yellow>&7: <yellowLife>
+    <green>&7: <greenLife>
+    &7
+    &fKills: &a<kills>
+    &fGoals: &a<goals>
+    &7
+    &fMode: &e<mode>
+    &fMap: &a<map>
+    &f
+    &6mc.servername.net
+units:
+  minutes: minutes
+  minute: minute
+  seconds: seconds
+  second: second
