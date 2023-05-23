@@ -38,7 +38,7 @@ public class Archi {
         }
     }
 
-    public void execute(Player p) {
+    public void execute(Player p) {//TODO enviar mensajes de recompensas
         for (String cmd : cmds) {
             cmd = cmd.replace("%player%", p.getName());
             Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), cmd);

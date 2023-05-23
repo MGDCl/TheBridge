@@ -12,8 +12,7 @@ import java.io.File;
 import java.io.IOException;
 import java.sql.*;
 import java.util.TimeZone;
-
-    public class Database {
+public class Database {
 
     public TheBridge plugin;
     private Connection connection;

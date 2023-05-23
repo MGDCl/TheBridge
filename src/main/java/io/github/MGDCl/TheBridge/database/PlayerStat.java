@@ -69,8 +69,8 @@ public class PlayerStat {
 
     public PlayerStat(Player p) {
         this.player = p;
-        this.uuid = p.getUniqueId();
         this.name = p.getName();
+        this.uuid = p.getUniqueId();
         TheBridge.get().getDb().loadData(this);
         TheBridge.get().getCb().loadData(this);
         players.put(p, this);

@@ -3,7 +3,7 @@ name: TheBridge
 version: 2.5.0
 authors: [Stefatorus, pintux98, Leonardo0013YT]
 description: TheBridge edited by MGDCl
-softdepend: [PlaceholderAPI, NametagEdit, FastAsyncWorldEdit, WorldEdit]
+softdepend: [PlaceholderAPI, FastAsyncWorldEdit, WorldEdit]
 commands:
   bridges:
     description: TheBridge minigame main command.

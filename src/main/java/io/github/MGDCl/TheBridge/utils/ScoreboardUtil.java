@@ -26,7 +26,7 @@ public class ScoreboardUtil {
         (this.objective = this.scoreboard.registerNewObjective(s2, "dummy")).setDisplayName(s);
         this.objective2 = this.scoreboard.registerNewObjective("h2", "health");
         this.objective.setDisplaySlot(DisplaySlot.SIDEBAR);
-        this.objective2.setDisplayName((Object) ChatColor.RED + "❤");
+        this.objective2.setDisplayName((Object)ChatColor.RED + "❤");
         this.objective2.setDisplaySlot(DisplaySlot.BELOW_NAME);
     }
 
@@ -177,3 +177,4 @@ public class ScoreboardUtil {
     }
 
 }
+

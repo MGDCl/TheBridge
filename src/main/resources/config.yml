@@ -3,15 +3,20 @@ server: ServerName
 update: true
 cages: false
 permFormat: pex user <name> add <permission>
-defaultCage: "default"
+defaultCage: default
+defaultArrow: default
 chat:
   enabled: true
-  lobby: "&b[TheBridge] &e<player>: &7<msg>"
-  ingame: "<teamColor>[<teamName>] <player>: &7<msg>"
-  global: "&6[GLOBAL] <teamColor> <teamName> <player>: &7<msg>"
+  lobby: '&b[TheBridge] &e<player>: &7<msg>'
+  ingame: '<teamColor>[<teamName>] <player>: &7<msg>'
+  global: '&6[GLOBAL] <teamColor> <teamName> <player>: &7<msg>'
+commands:
+  whitelist: true
+  list:
+  - /myCommand
 archievements:
   disable: false
-remove: 
+remove:
   absorption: false
   regeneration: false
 bow:
@@ -19,10 +24,26 @@ bow:
 shop:
   size: 27
   glass:
-    slot: 4
+    slot: 3
     icon: STAINED_GLASS
     data: 0
     amount: 1
+  trails:
+    slot: 5
+    icon: APPLE
+    data: 0
+    amount: 1
+    type:
+      arrow:
+        slot: 3
+        icon: ARROW
+        data: 0
+        amount: 1
+      feet:
+        slot: 5
+        icon: IRON_BOOTS
+        data: 0
+        amount: 1
   close:
     slot: 22
     icon: BARRIER
@@ -53,7 +74,7 @@ items:
     data: 0
     amount: 1
     slot: 3
-    nameItem: "&aThe Bridge | Shop"
+    nameItem: '&aThe Bridge | Shop'
     loreItem: |-
       &7Click to open
       &7shop of the bridge.
@@ -63,7 +84,7 @@ items:
     data: 0
     amount: 1
     slot: 5
-    nameItem: "&aHotbar Editor"
+    nameItem: '&aHotbar Editor'
     loreItem: |-
       &7Click to open
       &7hotbar editor.
@@ -73,7 +94,7 @@ items:
     data: 0
     amount: 1
     slot: 4
-    nameItem: "&aGame Selector"
+    nameItem: '&aGame Selector'
     loreItem: |-
       &7Click to open
       &7menu of select games.
@@ -82,16 +103,37 @@ items:
     material: FEATHER
     data: 0
     amount: 1
-    slot: 8
-    nameItem: "&eRandom Join"
+    slot: 0
+    nameItem: '&eRandom Join'
     loreItem: |-
       &7Click to random
       &7join a game.
+  lobby:
+    enabled: false
+    material: REDSTONE
+    data: 0
+    amount: 1
+    slot: 8
+    server: lobby
+    nameItem: '&eReturn to Lobby'
+    loreItem: |-
+      &7Click to return
+      &7to lobby.
+  archievements:
+    enabled: false
+    material: ARROW
+    data: 0
+    amount: 1
+    slot: 7
+    nameItem: '&eArchievements Menu'
+    loreItem: |-
+      &7Click to return
+      &7open archevements menu.
 names:
-  red: "Red"
-  blue: "Blue"
-  yellow: "Yellow"
-  green: "Green"
+  red: Red
+  blue: Blue
+  yellow: Yellow
+  green: Green
 signs:
   waiting: 5
   starting: 4

@@ -49,7 +49,6 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitTask;
-
 import io.github.MGDCl.TheBridge.cosmetics.Cage;
 import io.github.MGDCl.TheBridge.database.PlayerStat;
 import io.github.MGDCl.TheBridge.game.GameDuo;
@@ -120,7 +119,7 @@ public class PlayerListener implements Listener {
 
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
-        final Player p = e.getPlayer();
+        Player p = e.getPlayer();
         new PlayerStat(p);
         givePlayerItems(p);
         Utils.setPlayerExperience(p, PlayerStat.getPlayerStat(p).getXp());
@@ -608,7 +607,7 @@ public class PlayerListener implements Listener {
     }
 
     @EventHandler
-    public void onChat(AsyncPlayerChatEvent e) {
+    public void onChat(AsyncPlayerChatEvent e) {//TODO agregar un chat del lobby principal
         final Player p = e.getPlayer();
         if (!plugin.getConfig().getBoolean("chat.enabled"))
             return;
